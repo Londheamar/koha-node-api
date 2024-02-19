@@ -1,6 +1,6 @@
 ### Database details
 
-Update Client database details `./clients/*`
+Update Koha database details `./clients/*`
 
 Update api local database details `./src/database.api.database.js`
 
@@ -22,6 +22,11 @@ Update api local database details `./src/database.api.database.js`
 To activate the API for a new Koha instance, start by including the Koha details in the `./clients/<CLIENT_DIR>/Database.js` file.
 Next, import and establish a new route in `./routes/koha.routes.js`. 
 This newly created route can be accessed at `localhost:5000/<newly_created_route>/bib-details`.
+
+
+
+- All main routes available in `./src/routes/api.routes.js`
+
 
 
 #### Error: 
