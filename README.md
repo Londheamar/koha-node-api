@@ -8,12 +8,12 @@ Update api local database details `./src/database.api.database.js`
 - Start API - `nodemon index.js`
 
 
-### Client one - test 
+### Koha one - test 
 - localhost:5000/test/auth
 - localhost:5000/test/suggestions
 - localhost:5000/test/bib-details
 
-### Client 2 - cl2
+### Koha 2 - cl2
 - localhost:5000/cl2/auth
 - localhost:5000/cl2/suggestions
 - localhost:5000/cl2/bib-details
